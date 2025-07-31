@@ -181,5 +181,56 @@
       "read": false,
       "createdAt": "2025-07-31T11:14:40.860Z"
     }
+  ],
+
+  "doctor-appointments":[
+    {
+       "id": "A001",
+        "patientName": "John Smith",
+        "patientId": "P001",
+        "time": "9:00 AM",
+        "duration": "30 min",
+        "type": "Consultation",
+        "status": "confirmed",
+        "notes": "Routine cardiac check-up",
+        "phone": "+1 (555) 123-4567",
+        "avatar": "https://readdy.ai/api/search-image?query=Professional%20headshot%20of%20middle-aged%20man%20with%20friendly%20smile%2C%20casual%20attire%2C%20clean%20background%2C%20portrait%20photography%20style&width=50&height=50&seq=patient1&orientation=squarish"
+      },
+      {
+        "id": "A002",
+        "patientName": "Emily Johnson",
+        "patientId": "P002",
+        "time": "10:30 AM",
+        "duration": "15 min",
+        "type": "Follow-up",
+        "status": "waiting",
+        "notes": "Blood pressure monitoring",
+        "phone": "+1 (555) 234-5678",
+        "avatar": "https://readdy.ai/api/search-image?query=Professional%20headshot%20of%20young%20woman%20with%20brown%20hair%2C%20warm%20smile%2C%20business%20casual%2C%20studio%20lighting%2C%20clean%20background&width=50&height=50&seq=patient2&orientation=squarish"
+      },
+      {
+        "id": "A003",
+        "patientName": "Michael Brown",
+        "patientId": "P003",
+        "time": "2:00 PM",
+        "duration": "45 min",
+        "type": "Consultation",
+        "status": "confirmed",
+        "notes": "Chest pain evaluation",
+        "phone": "+1 (555) 345-6789",
+        "avatar": "https://readdy.ai/api/search-image?query=Professional%20headshot%20of%20man%20with%20beard%2C%20confident%20expression%2C%20casual%20shirt%2C%20studio%20lighting%2C%20clean%20background&width=50&height=50&seq=patient3&orientation=squarish"
+      },
+      {
+        "id": "A004",
+        "patientName": "Sarah Davis",
+        "patientId": "P004",
+        "time": "3:30 PM",
+        "duration": "30 min",
+        "type": "Check-up",
+        "status": "completed",
+        "notes": "Annual physical examination",
+        "phone": "+1 (555) 456-7890'",
+        "avatar": "https://readdy.ai/api/search-image?query=Professional%20headshot%20of%20middle-aged%20woman%20with%20short%20hair%2C%20professional%20attire%2C%20warm%20expression%2C%20clean%20background&width=50&height=50&seq=patient4&orientation=squarish"
+      }
   ]
 }
