@@ -257,15 +257,15 @@
       "doctorId": "D001",
       "doctorName": "Dr. Sarah Johnson",
       "specialty": "Cardiology",
-      "date": "2025-08-05",
-      "time": "10:00",
+      "date": "2025-08-04",
+      "time": "10:30 AM",
       "appointmentType": "Consultation",
       "notes": "Follow-up on chest pain",
       "tokenNumber": "T1234",
-      "status": "cancelled",
-      "originalDate": "2025-08-05",
-      "originalTime": "10:00 AM",
-      "rescheduledAt": "2025-08-04T07:21:53.692Z"
+      "status": "rescheduled",
+      "originalDate": "2025-08-06",
+      "originalTime": "10:30 AM",
+      "rescheduledAt": "2025-08-05T06:36:53.526Z"
     },
     {
       "id": "2",
@@ -278,7 +278,7 @@
       "appointmentType": "Check-up",
       "notes": "Headache evaluation",
       "tokenNumber": "T1235",
-      "status": "confirmed"
+      "status": "cancelled"
     },
     {
       "id": "3",
@@ -343,7 +343,7 @@
       "appointmentType": "Consultation",
       "notes": "high Fever",
       "tokenNumber": "T1754245346681",
-      "status": "confirmed"
+      "status": "cancelled"
     },
     {
       "id": "apt-001",
@@ -356,7 +356,7 @@
       "appointmentType": "Consultation",
       "notes": "Knee pain and difficulty walking",
       "tokenNumber": "T1754245346682",
-      "status": "confirmed"
+      "status": "cancelled"
     },
     {
       "id": "apt-002",
@@ -382,7 +382,7 @@
       "appointmentType": "Follow-up",
       "notes": "Regular check-up for child",
       "tokenNumber": "T1754245346684",
-      "status": "confirmed"
+      "status": "completed"
     },
     {
       "id": "apt-004",
@@ -395,7 +395,7 @@
       "appointmentType": "Consultation",
       "notes": "Headaches and dizziness",
       "tokenNumber": "T1754245346685",
-      "status": "confirmed"
+      "status": "completed"
     },
     {
       "id": "13fb",
@@ -408,7 +408,7 @@
       "appointmentType": "Consultation",
       "notes": "unknown",
       "tokenNumber": "T1754247103543",
-      "status": "confirmed"
+      "status": "completed"
     },
     {
       "id": "9224",
@@ -416,15 +416,15 @@
       "doctorId": "D001",
       "doctorName": "Dr. Sarah Johnson",
       "specialty": "Cardiology",
-      "date": "2025-08-07",
-      "time": "09:00",
+      "date": "2025-08-03",
+      "time": "01:30 AM",
       "appointmentType": "Consultation",
       "notes": "unko",
       "tokenNumber": "T1754251273652",
       "status": "rescheduled",
-      "originalDate": "2025-08-04",
-      "originalTime": "09:00 AM",
-      "rescheduledAt": "2025-08-04T07:12:25.138Z"
+      "originalDate": "2025-08-06",
+      "originalTime": "08:30 AM",
+      "rescheduledAt": "2025-08-05T06:36:02.627Z"
     },
     {
       "id": "0457",
@@ -432,12 +432,15 @@
       "doctorId": "D001",
       "doctorName": "Dr. Sarah Johnson",
       "specialty": "Cardiology",
-      "date": "2025-08-07",
-      "time": "03:30 PM",
+      "date": "2025-08-06",
+      "time": "06:30 PM",
       "appointmentType": "Consultation",
       "notes": "",
       "tokenNumber": "T1754283980952",
-      "status": "confirmed"
+      "status": "rescheduled",
+      "originalDate": "2025-08-04",
+      "originalTime": "06:30 PM",
+      "rescheduledAt": "2025-08-05T06:36:40.898Z"
     },
     {
       "id": "6067",
@@ -450,7 +453,7 @@
       "appointmentType": "Consultation",
       "notes": "",
       "tokenNumber": "T1754306965938",
-      "status": "confirmed"
+      "status": "completed"
     },
     {
       "id": "75ff",
@@ -459,11 +462,59 @@
       "doctorName": "Dr. Sarah Johnson",
       "specialty": "Cardiology",
       "date": "2025-08-07",
-      "time": "04:30 PM",
+      "time": "01:30 PM",
       "appointmentType": "Consultation",
       "notes": "",
       "tokenNumber": "T1754307074034",
-      "status": "confirmed"
+      "status": "rescheduled",
+      "originalDate": "2025-08-07",
+      "originalTime": "01:30 PM",
+      "rescheduledAt": "2025-08-05T06:35:54.492Z"
+    },
+    {
+      "id": "4f1a",
+      "patientId": "70b268eb-6dde-4f1f-a7ba-949d0489fb3d",
+      "doctorId": "D001",
+      "doctorName": "Dr. Sarah Johnson",
+      "specialty": "Cardiology",
+      "date": "2025-08-14",
+      "time": "11:30 AM",
+      "appointmentType": "Consultation",
+      "notes": "",
+      "tokenNumber": "T1754370704997",
+      "status": "completed"
+    },
+    {
+      "id": "2141",
+      "patientId": "70b268eb-6dde-4f1f-a7ba-949d0489fb3d",
+      "doctorId": "D001",
+      "doctorName": "Dr. Sarah Johnson",
+      "specialty": "Cardiology",
+      "date": "2025-08-09",
+      "time": "10:00 AM",
+      "appointmentType": "Consultation",
+      "notes": "",
+      "tokenNumber": "T1754370766429",
+      "status": "rescheduled",
+      "originalDate": "2025-08-08",
+      "originalTime": "10:00 AM",
+      "rescheduledAt": "2025-08-05T06:34:21.872Z"
+    },
+    {
+      "id": "10a7",
+      "patientId": "70b268eb-6dde-4f1f-a7ba-949d0489fb3d",
+      "doctorId": "D001",
+      "doctorName": "Dr. Sarah Johnson",
+      "specialty": "Cardiology",
+      "date": "2025-08-03",
+      "time": "01:00 PM",
+      "appointmentType": "Consultation",
+      "notes": "",
+      "tokenNumber": "T1754371007010",
+      "status": "rescheduled",
+      "originalDate": "2025-08-04",
+      "originalTime": "01:30 PM",
+      "rescheduledAt": "2025-08-05T06:36:18.603Z"
     }
   ],
   "notifications": [
@@ -511,6 +562,60 @@
       "type": "new_appointment",
       "read": false,
       "createdAt": "2025-08-04T11:31:14.088Z"
+    },
+    {
+      "id": "notif-1754370705126",
+      "patientId": "70b268eb-6dde-4f1f-a7ba-949d0489fb3d",
+      "title": "Appointment Confirmed",
+      "message": "Your appointment with Dr. Sarah Johnson on 2025-08-14 at 11:30 AM has been confirmed.",
+      "type": "appointment_confirmed",
+      "read": false,
+      "createdAt": "2025-08-05T05:11:45.126Z"
+    },
+    {
+      "id": "notif-doc-1754370705146",
+      "doctorId": "D001",
+      "title": "New Appointment Booked",
+      "message": "New appointment booked by kalyan kumar on 2025-08-14 at 11:30 AM.",
+      "type": "new_appointment",
+      "read": false,
+      "createdAt": "2025-08-05T05:11:45.146Z"
+    },
+    {
+      "id": "notif-1754370766454",
+      "patientId": "70b268eb-6dde-4f1f-a7ba-949d0489fb3d",
+      "title": "Appointment Confirmed",
+      "message": "Your appointment with Dr. Sarah Johnson on 2025-08-07 at 11:00 AM has been confirmed.",
+      "type": "appointment_confirmed",
+      "read": false,
+      "createdAt": "2025-08-05T05:12:46.454Z"
+    },
+    {
+      "id": "notif-doc-1754370766473",
+      "doctorId": "D001",
+      "title": "New Appointment Booked",
+      "message": "New appointment booked by kalyan kumar on 2025-08-07 at 11:00 AM.",
+      "type": "new_appointment",
+      "read": false,
+      "createdAt": "2025-08-05T05:12:46.473Z"
+    },
+    {
+      "id": "notif-1754371007049",
+      "patientId": "70b268eb-6dde-4f1f-a7ba-949d0489fb3d",
+      "title": "Appointment Confirmed",
+      "message": "Your appointment with Dr. Sarah Johnson on 2025-08-07 at 09:00 AM has been confirmed.",
+      "type": "appointment_confirmed",
+      "read": false,
+      "createdAt": "2025-08-05T05:16:47.049Z"
+    },
+    {
+      "id": "notif-doc-1754371007076",
+      "doctorId": "D001",
+      "title": "New Appointment Booked",
+      "message": "New appointment booked by kalyan kumar on 2025-08-07 at 09:00 AM.",
+      "type": "new_appointment",
+      "read": false,
+      "createdAt": "2025-08-05T05:16:47.076Z"
     }
   ],
   "doctor-appointments": [
@@ -561,6 +666,82 @@
       "notes": "Annual physical examination",
       "phone": "+1 (555) 456-7890'",
       "avatar": "https://readdy.ai/api/search-image?query=Professional%20headshot%20of%20middle-aged%20woman%20with%20short%20hair%2C%20professional%20attire%2C%20warm%20expression%2C%20clean%20background&width=50&height=50&seq=patient4&orientation=squarish"
+    }
+  ],
+  "prescriptions": [
+    {
+      "id": "presc-001",
+      "appointmentId": "4",
+      "patientId": "70b268eb-6dde-4f1f-a7ba-949d0489fb3d",
+      "patientName": "kalyan kumar",
+      "doctorId": "D004",
+      "doctorName": "Dr. James Wilson",
+      "medicines": [
+        {
+          "id": "med-001",
+          "name": "Ibuprofen",
+          "dosage": "400mg",
+          "frequency": "3 times daily",
+          "duration": "7 days",
+          "instructions": "Take with food to avoid stomach upset"
+        },
+        {
+          "id": "med-002",
+          "name": "Acetaminophen",
+          "dosage": "500mg",
+          "frequency": "As needed for pain",
+          "duration": "5 days",
+          "instructions": "Do not exceed 4 tablets per day"
+        }
+      ],
+      "notes": "For knee pain relief. Avoid strenuous activities for 2 weeks.",
+      "prescribedDate": "2025-08-08",
+      "nextFollowUp": "2025-08-22",
+      "status": "active"
+    },
+    {
+      "appointmentId": "13fb",
+      "patientId": "ad96f831-f9c8-4c9b-8217-daca679b3c5a",
+      "patientName": "lokesh",
+      "medicines": [
+        {
+          "id": "med-003",
+          "name": "Aspirin",
+          "dosage": "81mg",
+          "frequency": "Once daily",
+          "duration": "30 days",
+          "instructions": "Take in the morning with water"
+        }
+      ],
+      "notes": "For chest pain management. Monitor symptoms and report any worsening.",
+      "nextFollowUp": "2025-08-18",
+      "doctorId": "D001",
+      "doctorName": "Dr. Sarah Johnson",
+      "prescribedDate": "2025-08-07",
+      "status": "active",
+      "id": "presc-002"
+    },
+    {
+      "id": "presc-003",
+      "appointmentId": "2",
+      "patientId": "70b268eb-6dde-4f1f-a7ba-949d0489fb3d",
+      "patientName": "kalyan kumar",
+      "doctorId": "D002",
+      "doctorName": "Dr. Michael Chen",
+      "medicines": [
+        {
+          "id": "med-004",
+          "name": "Sumatriptan",
+          "dosage": "50mg",
+          "frequency": "As needed for migraine",
+          "duration": "10 days",
+          "instructions": "Take at the first sign of migraine"
+        }
+      ],
+      "notes": "For headache relief. Keep a headache diary to track triggers.",
+      "prescribedDate": "2025-08-06",
+      "nextFollowUp": "2025-08-20",
+      "status": "active"
     }
   ]
 }
