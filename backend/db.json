@@ -9,6 +9,11 @@
       "id": "70b268eb-6dde-4f1f-a7ba-949d0489fb3d",
       "email": "kalyankumarmunjuluri@gmail.com",
       "password": "123456"
+    },
+    {
+      "id": "bb92ca92-eb8c-49f4-a142-9bcf0f9728a6",
+      "email": "venkat@gmail.com",
+      "password": "123456"
     }
   ],
   "doctor-login": [
@@ -69,6 +74,20 @@
       "medications": "nothing",
       "profilePicture": null,
       "id": "70b268eb-6dde-4f1f-a7ba-949d0489fb3d"
+    },
+    {
+      "name": "venkat",
+      "email": "venkat@gmail.com",
+      "password": "123456",
+      "phone": "9870987090",
+      "dateOfBirth": "2003-07-10",
+      "address": "podili",
+      "emergencyContact": "89798400898",
+      "bloodType": "O-",
+      "allergies": "yes",
+      "medications": "Aspirins",
+      "id": "bb92ca92-eb8c-49f4-a142-9bcf0f9728a6",
+      "profilePicture": ""
     }
   ],
   "doctor-profile": [
@@ -453,7 +472,10 @@
       "appointmentType": "Consultation",
       "notes": "",
       "tokenNumber": "T1754306965938",
-      "status": "completed"
+      "status": "rescheduled",
+      "originalDate": "2025-08-13",
+      "originalTime": "02:00 PM",
+      "rescheduledAt": "2025-08-12T05:43:29.452Z"
     },
     {
       "id": "75ff",
@@ -515,18 +537,22 @@
       "originalDate": "2025-08-04",
       "originalTime": "01:30 PM",
       "rescheduledAt": "2025-08-05T06:36:18.603Z"
+    },
+    {
+      "patientId": "bb92ca92-eb8c-49f4-a142-9bcf0f9728a6",
+      "doctorId": "D005",
+      "doctorName": "Dr. Lisa Park",
+      "specialty": "Neurology",
+      "date": "2025-08-14",
+      "time": "09:30 AM",
+      "appointmentType": "Consultation",
+      "notes": "nerouns damage",
+      "tokenNumber": "T1755050299027",
+      "status": "completed",
+      "id": "6F7y27N"
     }
   ],
   "notifications": [
-    {
-      "id": "notif-003",
-      "patientId": "70b268eb-6dde-4f1f-a7ba-949d0489fb3d",
-      "title": "Appointment Confirmed",
-      "message": "Your appointment with Dr. Michael Chen on Aug 6th at 2:00 PM has been confirmed.",
-      "type": "appointment_confirmed",
-      "read": false,
-      "createdAt": "2025-01-15T10:30:00.000Z"
-    },
     {
       "id": "notif-1754306965968",
       "patientId": "ad96f831-f9c8-4c9b-8217-daca679b3c5a",
@@ -564,15 +590,6 @@
       "createdAt": "2025-08-04T11:31:14.088Z"
     },
     {
-      "id": "notif-1754370705126",
-      "patientId": "70b268eb-6dde-4f1f-a7ba-949d0489fb3d",
-      "title": "Appointment Confirmed",
-      "message": "Your appointment with Dr. Sarah Johnson on 2025-08-14 at 11:30 AM has been confirmed.",
-      "type": "appointment_confirmed",
-      "read": false,
-      "createdAt": "2025-08-05T05:11:45.126Z"
-    },
-    {
       "id": "notif-doc-1754370705146",
       "doctorId": "D001",
       "title": "New Appointment Booked",
@@ -580,15 +597,6 @@
       "type": "new_appointment",
       "read": false,
       "createdAt": "2025-08-05T05:11:45.146Z"
-    },
-    {
-      "id": "notif-1754370766454",
-      "patientId": "70b268eb-6dde-4f1f-a7ba-949d0489fb3d",
-      "title": "Appointment Confirmed",
-      "message": "Your appointment with Dr. Sarah Johnson on 2025-08-07 at 11:00 AM has been confirmed.",
-      "type": "appointment_confirmed",
-      "read": false,
-      "createdAt": "2025-08-05T05:12:46.454Z"
     },
     {
       "id": "notif-doc-1754370766473",
@@ -600,15 +608,6 @@
       "createdAt": "2025-08-05T05:12:46.473Z"
     },
     {
-      "id": "notif-1754371007049",
-      "patientId": "70b268eb-6dde-4f1f-a7ba-949d0489fb3d",
-      "title": "Appointment Confirmed",
-      "message": "Your appointment with Dr. Sarah Johnson on 2025-08-07 at 09:00 AM has been confirmed.",
-      "type": "appointment_confirmed",
-      "read": false,
-      "createdAt": "2025-08-05T05:16:47.049Z"
-    },
-    {
       "id": "notif-doc-1754371007076",
       "doctorId": "D001",
       "title": "New Appointment Booked",
@@ -616,6 +615,24 @@
       "type": "new_appointment",
       "read": false,
       "createdAt": "2025-08-05T05:16:47.076Z"
+    },
+    {
+      "id": "notif-1755050299051",
+      "patientId": "bb92ca92-eb8c-49f4-a142-9bcf0f9728a6",
+      "title": "Appointment Confirmed",
+      "message": "Your appointment with Dr. Lisa Park on 2025-08-14 at 09:30 AM has been confirmed.",
+      "type": "appointment_confirmed",
+      "read": false,
+      "createdAt": "2025-08-13T01:58:19.051Z"
+    },
+    {
+      "id": "notif-doc-1755050299068",
+      "doctorId": "D005",
+      "title": "New Appointment Booked",
+      "message": "New appointment booked by venkat on 2025-08-14 at 09:30 AM.",
+      "type": "new_appointment",
+      "read": false,
+      "createdAt": "2025-08-13T01:58:19.068Z"
     }
   ],
   "doctor-appointments": [
@@ -742,6 +759,80 @@
       "prescribedDate": "2025-08-06",
       "nextFollowUp": "2025-08-20",
       "status": "active"
+    }
+  ],
+  "reviews": [
+    {
+      "id": "rev-001",
+      "appointmentId": "4",
+      "patientId": "70b268eb-6dde-4f1f-a7ba-949d0489fb3d",
+      "patientName": "kalyan kumar",
+      "doctorId": "D004",
+      "doctorName": "Dr. James Wilson",
+      "rating": 5,
+      "review": "Excellent consultation! Dr. Wilson was very thorough in examining my knee pain and provided clear treatment options. The staff was also very professional.",
+      "createdAt": "2025-08-08T15:30:00.000Z",
+      "updatedAt": "2025-08-08T15:30:00.000Z"
+    },
+    {
+      "id": "rev-002",
+      "appointmentId": "2",
+      "patientId": "70b268eb-6dde-4f1f-a7ba-949d0489fb3d",
+      "patientName": "kalyan kumar",
+      "doctorId": "D002",
+      "doctorName": "Dr. Michael Chen",
+      "rating": 4,
+      "review": "Dr. Chen was knowledgeable and helped me understand my headache issues better. The wait time was a bit long, but the consultation was worth it.",
+      "createdAt": "2025-08-06T14:00:00.000Z",
+      "updatedAt": "2025-08-06T14:00:00.000Z"
+    },
+    {
+      "id": "rev-003",
+      "appointmentId": "1",
+      "patientId": "ad96f831-f9c8-4c9b-8217-daca679b3c5a",
+      "patientName": "lokesh",
+      "doctorId": "D001",
+      "doctorName": "Dr. Sarah Johnson",
+      "rating": 5,
+      "review": "Dr. Johnson is amazing! She took the time to listen to all my concerns about chest pain and provided comprehensive care. Highly recommended!",
+      "createdAt": "2025-08-04T10:30:00.000Z",
+      "updatedAt": "2025-08-04T10:30:00.000Z"
+    },
+    {
+      "id": "rev-004",
+      "appointmentId": "3",
+      "patientId": "ad96f831-f9c8-4c9b-8217-daca679b3c5a",
+      "patientName": "lokesh",
+      "doctorId": "D003",
+      "doctorName": "Dr. Emily Rodriguez",
+      "rating": 4,
+      "review": "Dr. Rodriguez was very patient and caring. She explained everything clearly and made sure I understood the treatment plan.",
+      "createdAt": "2025-08-07T11:00:00.000Z",
+      "updatedAt": "2025-08-07T11:00:00.000Z"
+    },
+    {
+      "id": "rev-005",
+      "appointmentId": "5",
+      "patientId": "ad96f831-f9c8-4c9b-8217-daca679b3c5a",
+      "patientName": "lokesh",
+      "doctorId": "D005",
+      "doctorName": "Dr. Lisa Thompson",
+      "rating": 3,
+      "review": "The consultation was okay, but I felt rushed. Dr. Thompson seemed knowledgeable but didn't spend enough time addressing my concerns.",
+      "createdAt": "2025-08-09T13:00:00.000Z",
+      "updatedAt": "2025-08-09T13:00:00.000Z"
+    },
+    {
+      "appointmentId": "13fb",
+      "patientId": "ad96f831-f9c8-4c9b-8217-daca679b3c5a",
+      "patientName": "lokesh",
+      "doctorId": "D001",
+      "doctorName": "Dr. Sarah Johnson",
+      "rating": 4,
+      "review": "excellent",
+      "createdAt": "2025-08-13T06:56:31.620Z",
+      "updatedAt": "2025-08-13T06:56:31.620Z",
+      "id": "guz91Ak"
     }
   ]
 }
